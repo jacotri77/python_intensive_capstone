@@ -76,7 +76,7 @@ def frequency_comparison(table1, table2):
     return mutual_appearances / appearances #gives the frequency_comparison score
 
 def percent_difference(value1, value2):
-    difference = abs(value1 - value2) / ((value1) + (value2)/ 2) #take the abs value to keep numbers positive
+    difference = abs(value1 - value2) / ((value1 + value2)/ 2) #take the abs value to keep numbers positive
     return difference
 
 def find_text_similarity(sample1, sample2):
